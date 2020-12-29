@@ -1,3 +1,5 @@
+Test the api
+
 1.Create Customer (POST METHOD)\
 Example URL:
 http://127.0.0.1:8000/api/create
@@ -17,14 +19,17 @@ example raw data for create customer\
 Example URL: 
 http://127.0.0.1:8000/api/getByPhoneNo/+60123456780
 
+\
 3. find customer by email (GET METHOD)\
 Example URL: 
 http://127.0.0.1:8000/api/getByEmail/test@gamil.com
 
+\
 4. list customer (GET METHOD)\
 Example URL: 
 http://127.0.0.1:8000/api/getAll
 
+\
 5.update customer name with id (PUT METHOD)\
 Example URL:  
 http://127.0.0.1:8000/api/updateName
