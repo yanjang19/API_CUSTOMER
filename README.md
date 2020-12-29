@@ -33,12 +33,14 @@ http://127.0.0.1:8000/api/getAll
 5.update customer name with id (PUT METHOD)\
 Example URL:  
 http://127.0.0.1:8000/api/updateName
+
 \
-Example raw data for update customer\\
+Example raw data for update customer\
 {
     "cusName":"testing2",
     "cusId":"C10001"
 }
+
 \
 6.delete customer with id (Delete METHOD)\
 Example URL: 
