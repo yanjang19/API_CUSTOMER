@@ -12,7 +12,7 @@ example raw data for create customer\
     "gender":"M"
 }
 
-
+\
 2. find customer by phoneNumber (GET METHOD)\
 Example URL: 
 http://127.0.0.1:8000/api/getByPhoneNo/+60123456780
