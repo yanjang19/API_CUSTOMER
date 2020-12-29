@@ -1,5 +1,5 @@
 1.Create Customer (POST METHOD)\
-Example URL: \ 
+Example URL:
 http://127.0.0.1:8000/api/create
 
 \
@@ -13,28 +13,28 @@ example raw data for create customer\
 }
 
 
-2. find customer by phoneNumber (GET METHOD)
+2. find customer by phoneNumber (GET METHOD)\
 Example URL: 
 http://127.0.0.1:8000/api/getByPhoneNo/+60123456780
 
-3. find customer by email (GET METHOD)
+3. find customer by email (GET METHOD)\
 Example URL: 
 http://127.0.0.1:8000/api/getByEmail/test@gamil.com
 
-4. list customer (GET METHOD)
+4. list customer (GET METHOD)\
 Example URL: 
 http://127.0.0.1:8000/api/getAll
 
-5.update customer name with id (PUT METHOD)
+5.update customer name with id (PUT METHOD)\
 Example URL:  
 http://127.0.0.1:8000/api/updateName
-
+\
 example raw data for update customer
 {
     "cusName":"testing2",
     "cusId":"C10001"
 }
-
-6.delete customer with id (Delete METHOD)
+\
+6.delete customer with id (Delete METHOD)\
 Example URL: 
 http://127.0.0.1:8000/api/delete/C10001
