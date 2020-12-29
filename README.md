@@ -34,7 +34,7 @@ http://127.0.0.1:8000/api/getAll
 Example URL:  
 http://127.0.0.1:8000/api/updateName
 \
-example raw data for update customer\
+Example raw data for update customer\\
 {
     "cusName":"testing2",
     "cusId":"C10001"
