@@ -1,8 +1,9 @@
-1.Create Customer (POST METHOD)
-Example URL: 
+1.Create Customer (POST METHOD)\
+Example URL:\ 
 http://127.0.0.1:8000/api/create
 
-example raw data for create customer
+\
+example raw data for create customer\
 {
     "cusName":"test",
     "cusEmail":"test@gamil.com",
@@ -10,6 +11,7 @@ example raw data for create customer
     "cusPassword":"aSD1234",
     "gender":"M"
 }
+
 
 2. find customer by phoneNumber (GET METHOD)
 Example URL: 
