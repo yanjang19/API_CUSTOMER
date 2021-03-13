@@ -1,11 +1,14 @@
-Test the api
-
+### Test the api
+ ---
+ 
 1.Create Customer (POST METHOD)\
 Example URL:
 http://127.0.0.1:8000/api/create
 
 \
-example raw data for create customer\
+example raw data for create customer
+
+```
 {
     "cusName":"test",
     "cusEmail":"test@gamil.com",
@@ -13,9 +16,9 @@ example raw data for create customer\
     "cusPassword":"aSD1234",
     "gender":"M"
 }
-
+```
 \
-2. find customer by phoneNumber (GET METHOD)\
+2. find customer by phoneNumber (GET METHOD)
 Example URL: 
 http://127.0.0.1:8000/api/getByPhoneNo/+60123456780
 
@@ -35,12 +38,13 @@ Example URL:
 http://127.0.0.1:8000/api/updateName
 
 \
-Example raw data for update customer\
+Example raw data for update customer
+```
 {
     "cusName":"testing2",
     "cusId":"C10001"
 }
-
+```
 \
 6.delete customer with id (Delete METHOD)\
 Example URL: 
