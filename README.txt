@@ -36,4 +36,4 @@ example raw data for update customer
 6.delete customer with id (Delete METHOD)
 Example URL: 
 http://127.0.0.1:8000/api/delete/C10001
-7. hahah
+7. hahah 3
